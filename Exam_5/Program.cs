@@ -1,6 +1,5 @@
 ﻿
 using Exam_5;
-using System.Linq;
 
 // ---------------------------- LINQ 1 -----------------------------------//
 
@@ -50,7 +49,7 @@ Console.WriteLine(sum);
 //-----------------problem 2 ----------------------//
 
 List<User> users = new List<User>()
-{ 
+{
     new User{Id = 1,ismi = "Sarvar",familiyasi = "Gulomjonov",Address = "Andijon",buyurtmalar_soni = 2},
     new User{Id = 1,ismi = "Sardor",familiyasi = "Gulomjonov",Address = "Andijon",buyurtmalar_soni = 5},
     new User{Id = 1,ismi = "Abdulla",familiyasi = "Abdullaev",Address = "Andijon",buyurtmalar_soni = 3},
